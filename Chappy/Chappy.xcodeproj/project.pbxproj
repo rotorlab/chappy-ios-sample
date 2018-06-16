@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		446B775E20D59C0A00DB040D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B775D20D59C0A00DB040D /* AppDelegate.swift */; };
+		446B776020D59C0A00DB040D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B775F20D59C0A00DB040D /* ViewController.swift */; };
+		446B776320D59C0A00DB040D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446B776120D59C0A00DB040D /* Main.storyboard */; };
+		446B776520D59C0D00DB040D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446B776420D59C0D00DB040D /* Assets.xcassets */; };
+		446B776820D59C0D00DB040D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446B776620D59C0D00DB040D /* LaunchScreen.storyboard */; };
+		446B777320D59C0D00DB040D /* ChappyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B777220D59C0D00DB040D /* ChappyTests.swift */; };
+		446B777E20D59C0D00DB040D /* ChappyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B777D20D59C0D00DB040D /* ChappyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		446B776F20D59C0D00DB040D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 446B775220D59C0A00DB040D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446B775920D59C0A00DB040D;
+			remoteInfo = Chappy;
+		};
+		446B777A20D59C0D00DB040D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 446B775220D59C0A00DB040D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446B775920D59C0A00DB040D;
+			remoteInfo = Chappy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		446B775A20D59C0A00DB040D /* Chappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		446B775D20D59C0A00DB040D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		446B775F20D59C0A00DB040D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		446B776220D59C0A00DB040D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		446B776420D59C0D00DB040D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		446B776720D59C0D00DB040D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		446B776920D59C0D00DB040D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446B776E20D59C0D00DB040D /* ChappyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChappyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		446B777220D59C0D00DB040D /* ChappyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChappyTests.swift; sourceTree = "<group>"; };
+		446B777420D59C0D00DB040D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446B777920D59C0D00DB040D /* ChappyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChappyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		446B777D20D59C0D00DB040D /* ChappyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChappyUITests.swift; sourceTree = "<group>"; };
+		446B777F20D59C0D00DB040D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		446B775720D59C0A00DB040D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B776B20D59C0D00DB040D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B777620D59C0D00DB040D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		446B775120D59C0A00DB040D = {
+			isa = PBXGroup;
+			children = (
+				446B775C20D59C0A00DB040D /* Chappy */,
+				446B777120D59C0D00DB040D /* ChappyTests */,
+				446B777C20D59C0D00DB040D /* ChappyUITests */,
+				446B775B20D59C0A00DB040D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		446B775B20D59C0A00DB040D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				446B775A20D59C0A00DB040D /* Chappy.app */,
+				446B776E20D59C0D00DB040D /* ChappyTests.xctest */,
+				446B777920D59C0D00DB040D /* ChappyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		446B775C20D59C0A00DB040D /* Chappy */ = {
+			isa = PBXGroup;
+			children = (
+				446B775D20D59C0A00DB040D /* AppDelegate.swift */,
+				446B775F20D59C0A00DB040D /* ViewController.swift */,
+				446B776120D59C0A00DB040D /* Main.storyboard */,
+				446B776420D59C0D00DB040D /* Assets.xcassets */,
+				446B776620D59C0D00DB040D /* LaunchScreen.storyboard */,
+				446B776920D59C0D00DB040D /* Info.plist */,
+			);
+			path = Chappy;
+			sourceTree = "<group>";
+		};
+		446B777120D59C0D00DB040D /* ChappyTests */ = {
+			isa = PBXGroup;
+			children = (
+				446B777220D59C0D00DB040D /* ChappyTests.swift */,
+				446B777420D59C0D00DB040D /* Info.plist */,
+			);
+			path = ChappyTests;
+			sourceTree = "<group>";
+		};
+		446B777C20D59C0D00DB040D /* ChappyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				446B777D20D59C0D00DB040D /* ChappyUITests.swift */,
+				446B777F20D59C0D00DB040D /* Info.plist */,
+			);
+			path = ChappyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		446B775920D59C0A00DB040D /* Chappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446B778220D59C0D00DB040D /* Build configuration list for PBXNativeTarget "Chappy" */;
+			buildPhases = (
+				446B775620D59C0A00DB040D /* Sources */,
+				446B775720D59C0A00DB040D /* Frameworks */,
+				446B775820D59C0A00DB040D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chappy;
+			productName = Chappy;
+			productReference = 446B775A20D59C0A00DB040D /* Chappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		446B776D20D59C0D00DB040D /* ChappyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446B778520D59C0D00DB040D /* Build configuration list for PBXNativeTarget "ChappyTests" */;
+			buildPhases = (
+				446B776A20D59C0D00DB040D /* Sources */,
+				446B776B20D59C0D00DB040D /* Frameworks */,
+				446B776C20D59C0D00DB040D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				446B777020D59C0D00DB040D /* PBXTargetDependency */,
+			);
+			name = ChappyTests;
+			productName = ChappyTests;
+			productReference = 446B776E20D59C0D00DB040D /* ChappyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		446B777820D59C0D00DB040D /* ChappyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446B778820D59C0D00DB040D /* Build configuration list for PBXNativeTarget "ChappyUITests" */;
+			buildPhases = (
+				446B777520D59C0D00DB040D /* Sources */,
+				446B777620D59C0D00DB040D /* Frameworks */,
+				446B777720D59C0D00DB040D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				446B777B20D59C0D00DB040D /* PBXTargetDependency */,
+			);
+			name = ChappyUITests;
+			productName = ChappyUITests;
+			productReference = 446B777920D59C0D00DB040D /* ChappyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		446B775220D59C0A00DB040D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Efra Espada";
+				TargetAttributes = {
+					446B775920D59C0A00DB040D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					446B776D20D59C0D00DB040D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 446B775920D59C0A00DB040D;
+					};
+					446B777820D59C0D00DB040D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 446B775920D59C0A00DB040D;
+					};
+				};
+			};
+			buildConfigurationList = 446B775520D59C0A00DB040D /* Build configuration list for PBXProject "Chappy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 446B775120D59C0A00DB040D;
+			productRefGroup = 446B775B20D59C0A00DB040D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				446B775920D59C0A00DB040D /* Chappy */,
+				446B776D20D59C0D00DB040D /* ChappyTests */,
+				446B777820D59C0D00DB040D /* ChappyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		446B775820D59C0A00DB040D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446B776820D59C0D00DB040D /* LaunchScreen.storyboard in Resources */,
+				446B776520D59C0D00DB040D /* Assets.xcassets in Resources */,
+				446B776320D59C0A00DB040D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B776C20D59C0D00DB040D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B777720D59C0D00DB040D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		446B775620D59C0A00DB040D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446B776020D59C0A00DB040D /* ViewController.swift in Sources */,
+				446B775E20D59C0A00DB040D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B776A20D59C0D00DB040D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446B777320D59C0D00DB040D /* ChappyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446B777520D59C0D00DB040D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446B777E20D59C0D00DB040D /* ChappyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		446B777020D59C0D00DB040D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446B775920D59C0A00DB040D /* Chappy */;
+			targetProxy = 446B776F20D59C0D00DB040D /* PBXContainerItemProxy */;
+		};
+		446B777B20D59C0D00DB040D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446B775920D59C0A00DB040D /* Chappy */;
+			targetProxy = 446B777A20D59C0D00DB040D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		446B776120D59C0A00DB040D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446B776220D59C0A00DB040D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		446B776620D59C0D00DB040D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446B776720D59C0D00DB040D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		446B778020D59C0D00DB040D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		446B778120D59C0D00DB040D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		446B778320D59C0D00DB040D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FN5ZRRR54;
+				INFOPLIST_FILE = Chappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rotor.Chappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		446B778420D59C0D00DB040D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FN5ZRRR54;
+				INFOPLIST_FILE = Chappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rotor.Chappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		446B778620D59C0D00DB040D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FN5ZRRR54;
+				INFOPLIST_FILE = ChappyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rotor.ChappyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chappy.app/Chappy";
+			};
+			name = Debug;
+		};
+		446B778720D59C0D00DB040D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FN5ZRRR54;
+				INFOPLIST_FILE = ChappyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rotor.ChappyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chappy.app/Chappy";
+			};
+			name = Release;
+		};
+		446B778920D59C0D00DB040D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FN5ZRRR54;
+				INFOPLIST_FILE = ChappyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rotor.ChappyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chappy;
+			};
+			name = Debug;
+		};
+		446B778A20D59C0D00DB040D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FN5ZRRR54;
+				INFOPLIST_FILE = ChappyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rotor.ChappyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chappy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		446B775520D59C0A00DB040D /* Build configuration list for PBXProject "Chappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446B778020D59C0D00DB040D /* Debug */,
+				446B778120D59C0D00DB040D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446B778220D59C0D00DB040D /* Build configuration list for PBXNativeTarget "Chappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446B778320D59C0D00DB040D /* Debug */,
+				446B778420D59C0D00DB040D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446B778520D59C0D00DB040D /* Build configuration list for PBXNativeTarget "ChappyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446B778620D59C0D00DB040D /* Debug */,
+				446B778720D59C0D00DB040D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446B778820D59C0D00DB040D /* Build configuration list for PBXNativeTarget "ChappyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446B778920D59C0D00DB040D /* Debug */,
+				446B778A20D59C0D00DB040D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 446B775220D59C0A00DB040D /* Project object */;
+}
